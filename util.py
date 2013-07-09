@@ -24,7 +24,7 @@ __all__ = [
   'positional',
 ]
 
-import gflags
+from third_party.gflags import gflags
 import inspect
 import logging
 import types
