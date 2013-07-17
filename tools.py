@@ -24,7 +24,7 @@ __all__ = ['run']
 
 
 import BaseHTTPServer
-import gflags
+from third_party.gflags import gflags
 import socket
 import sys
 import webbrowser
